@@ -1,12 +1,4 @@
-image::./sources/3.0.0/images/figure-s102-logo.svg[S102_logo__signalFlagsSpellingS102,248,120]
-
-= IHO S-102 Bathymetric Surface Product Specification
-
-image:https://github.com/metanorma/S-102-Product-Specification/actions/workflows/generate.yml/badge.svg["Build Status", link="https://github.com/metanorma/S-102-Product-Specification/actions/workflows/generate.yml"]
-
-This document is available in its rendered forms here:
-
-* https://iho-ohi.github.io/S-102-Product-Specification/[IHO S-102 (HTML)]
+= IHO S-125 Marine Aids to Navigation (AtoN)
 
 == Purpose
 
@@ -20,10 +12,10 @@ https://iho.int[IHO] website.
 
 == General
 
-This repository contains the source files of S-102 standards, including:
+This repository contains the source files of S-125 standards, including:
 
-* S-102 2.2.0
-* S-102 3.0.0 (in development)
+* S-125 1.0.0
+* S-125 Annex A 1.0.0
 
 These documents are encoded in the
 https://www.metanorma.org/author/topics/document-format/[Metanorma AsciiDoc format].
@@ -32,7 +24,7 @@ https://www.metanorma.org/author/topics/document-format/[Metanorma AsciiDoc form
 == Structure
 
 `sources/`::
-source of the S-102 documents and models
+source of the S-125 documents and models
 
 `site/`::
 (automatically generated, in the `gh-pages` branch) published document.
