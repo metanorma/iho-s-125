@@ -1,9 +1,17 @@
+//image::./sources/3.0.0/images/figure-s125-logo.svg[S125_logo__signalFlagsSpellingS125,248,120]
+
 = IHO S-125 Marine Aids to Navigation (AtoN)
+
+//image:https://github.com/metanorma/S-125-Product-Specification/actions/workflows/generate.yml/badge.svg["Build Status", link="https://github.com/metanorma/S-125-Product-Specification/actions/workflows/generate.yml"]
+
+This document is available in its rendered forms here:
+
+* https://iho-ohi.github.io/S-125-Product-Specification/[IHO S-125 (HTML)]
 
 == Purpose
 
 This is the IHO repository for developing the next edition of
-the S-102 Bathymetric Surface Product Specification.
+the S-125 Marine Aids to Navigation (AtoN).
 
 WARNING: The contents of this repository are in draft form and are not necessarily in force yet.
 Please refer to the final version published on the official
@@ -15,7 +23,7 @@ https://iho.int[IHO] website.
 This repository contains the source files of S-125 standards, including:
 
 * S-125 1.0.0
-* S-125 Annex A 1.0.0
+* S-125 Annex A
 
 These documents are encoded in the
 https://www.metanorma.org/author/topics/document-format/[Metanorma AsciiDoc format].
