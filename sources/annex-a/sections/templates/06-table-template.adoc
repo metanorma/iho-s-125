@@ -1,6 +1,6 @@
 {% for aed in att.attributes %}
 [[cls-6.{{ forloop.index }}]]
-=== {{ aed.title }}
+=== {{ aed.title }}
 
 .{{ aed.title }}
 [cols="a",options=noheader]

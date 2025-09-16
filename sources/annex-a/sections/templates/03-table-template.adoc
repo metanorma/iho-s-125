@@ -1,5 +1,5 @@
 {% for it in info.types %}
-=== {{ it.name }}
+=== {{ it.name }}
 
 .{{ it.name }}
 [cols="a,a,a,a,a",options=noheader]

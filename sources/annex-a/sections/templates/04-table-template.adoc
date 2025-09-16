@@ -1,5 +1,5 @@
 {% for an in assoc.names %}
-=== {{ an.title }}
+=== {{ an.title }}
 
 .{{ an.title }}
 [cols="a,a,a,a",options=noheader]

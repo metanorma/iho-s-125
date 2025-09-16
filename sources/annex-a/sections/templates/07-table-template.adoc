@@ -1,6 +1,6 @@
 {% for ca in att.attributes %}
 [[cls-7.{{ forloop.index }}]]
-=== {{ ca.title }}
+=== {{ ca.title }}
 
 .{{ ca.title }}
 [cols="a",options=noheader]

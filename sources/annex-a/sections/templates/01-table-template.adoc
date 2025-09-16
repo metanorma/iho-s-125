@@ -1,5 +1,5 @@
 {% for mf in feat.features %}
-=== {{ mf.name }}
+=== {{ mf.name }}
 
 .{{ mf.name }}
 [cols="a,a,a,a,a",options=noheader]
