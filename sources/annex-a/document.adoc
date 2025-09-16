@@ -2,6 +2,7 @@
 :series: S
 :docnumber: 125
 :doctype: specification
+:annex-id: A
 :edition: 1.0.0
 :language: en
 :published-date: 2025-04-01
