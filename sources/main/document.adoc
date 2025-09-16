@@ -1,7 +1,7 @@
 = Marine Aids to Navigation (AtoN)
 :series: S
 :docnumber: 125
-:doctype: specification
+:doctype: standard
 :edition: 1.0.0
 :language: en
 :published-date: 2025-04-01
