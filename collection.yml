@@ -36,6 +36,7 @@ format:
   - pdf
   - html
   - doc
+  - rxl
 
 manifest:
   docref:
