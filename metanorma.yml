@@ -4,6 +4,7 @@ metanorma:
     files:
       - sources/main/document.adoc
       - sources/annex-a/document.adoc
+      - collection.yml
 
   collection:
     organization: "IHO: International Hydrographic Organization"
