@@ -26,7 +26,9 @@ projected.
 
 *Temporal reference system*:: Gregorian calendar
 
-*Coordinate reference system registry*:: http://www.epsg-registry.org/[EPSG Geodetic Parameter]http://www.epsg-registry.org/[Registry]
+*Coordinate reference system registry*::
+http://www.epsg-registry.org/[EPSG Geodetic Parameter]
+http://www.epsg-registry.org/[Registry]
 
 *Date type (according to <<ISO19115>>)*:: 002 - publication
 
@@ -54,7 +56,7 @@ accordance with <<ISO19108,section="5.4.4">>.
 Marine AtoN data must be compiled in the best applicable scale. The use
 of the data itself is "scale independent". That means that the data can
 be used at any scale. S-100 allows the association of multiple spatial
-attributes to a single feature instance. Each of thesespatial attributes
+attributes to a single feature instance. Each of these spatial attributes
 can in principle be qualified by maximum and minimum scales.
 
 For example, it is possible, within one dataset, to have a single

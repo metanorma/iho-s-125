@@ -12,8 +12,18 @@ comment attribute of the dataset metadata.
 |===
 | Item Name | Description | Multiplicity | Type
 
-| dataSource | Identification of the kinds of data sources usable to product datasets compliant with theconsidering specification | 0..* | CharacterString
-| productionProcess | Link to a textual description of the production process (including encoding guide) applicable to the datasets compliant with theconsidering specification | 0..* | CharacterString (URL)
+| dataSource
+| Identification of the kinds of data sources usable to product datasets
+compliant with the considering specification
+| 0..*
+| CharacterString
+
+| productionProcess
+| Link to a textual description of the production process (including encoding
+guide) applicable to the datasets compliant with the considering specification
+| 0..*
+| CharacterString (URL)
+
 |===
 
 === Data Encoding and Product Delivery
@@ -39,10 +49,21 @@ exchange set:
 |===
 | Dataset | Explanations
 
-| New dataset (base dataset): | Data for an area different (in coverage and/or extent) to existing datasets.
-| New Edition of a dataset: | A re-issue plus new information which has not been previously distributed by Updates. Each New Edition of a dataset must have the same name as the dataset that it replaces and should have the same spatial extents. The edition number in the dataset discovery metadata shall increment up by one from the previous edition.
-| Update dataset | A data replacement of the latest edition of a dataset.
-| Cancellation | Used to cancel dataset and any related update datasets.
+| New dataset (base dataset):
+| Data for an area different (in coverage and/or extent) to existing datasets.
+
+| New Edition of a dataset:
+| A re-issue plus new information which has not been previously distributed by
+Updates. Each New Edition of a dataset must have the same name as the dataset
+that it replaces and should have the same spatial extents. The edition number in
+the dataset discovery metadata shall increment up by one from the previous
+edition.
+
+| Update dataset
+| A data replacement of the latest edition of a dataset.
+
+| Cancellation
+| Used to cancel dataset and any related update datasets.
 |===
 
 ==== Content of Update Datasets
@@ -89,7 +110,8 @@ Structure Information field under `[coordMultFactorX]` and
 encoding, e.g., {1} for coordinates encoded in decimal degrees.
 
 [example]
-A longitude = 42.0000 is converted into X = longitude * coordMultFactorX = 42.0000 * 1 = 42.0000000.
+A `longitude = 42.0000` is converted into
+`X = longitude * coordMultFactorX = 42.0000 * 1 = 42.0000000`.
 
 === Numeric Attribute Encoding
 
@@ -131,7 +153,7 @@ An isolated danger beacon feature has unknown color (mandatory
 attribute) and condition (optional attribute). The feature could be coded
 as:
 
-[source%unnumbered]
+[source,xml]
 ----
 <BeaconIsolatedDanger>
   <beaconShape>beacon tower</beaconShape>

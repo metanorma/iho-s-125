@@ -49,7 +49,14 @@ MD_CharacterSetCode
 [[gml]]
 [NOTE]
 --
-GML is an XML encoding for the transport and storage of geographic information, including both the geometry and the properties of geographic features, between distributed systems. The XML Schema for the GML application schema is provided in a schema document S125.xsd which imports other schema(s) defining common types. These files are available in the IHO Geospatial Information Registry. Feature instance shall validate against S125.xsd and conform to all other requirements specified in this data product specification including all constraints not captured in the XML Schema document.
+GML is an XML encoding for the transport and storage of geographic information,
+including both the geometry and the properties of geographic features, between
+distributed systems. The XML Schema for the GML application schema is provided
+in a schema document `S125.xsd` which imports other schema(s) defining common
+types. These files are available in the IHO Geospatial Information Registry.
+Feature instance shall validate against `S125.xsd` and conform to all other
+requirements specified in this data product specification including all
+constraints not captured in the XML Schema document.
 --
 
 ==== Dataset loading
