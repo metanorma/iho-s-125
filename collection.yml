@@ -30,13 +30,7 @@ bibdata:
       abbreviation: IHO
     from: "2025"
 
-format:
-  - xml
-  - presentation
-  - pdf
-  - html
-  - doc
-  - rxl
+format: [xml, presentation, pdf, html, doc, rxl]
 
 manifest:
   docref:
