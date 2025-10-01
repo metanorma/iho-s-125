@@ -79,40 +79,53 @@ S-125 uses ten types of simple attributes; they are listed in <<tab-7-1>>.
 | A fixed list of valid identifiers of named literal values.
 
 | Boolean
-| A value representing binary logic. The value can be either True or False. The default state for Boolean type attributes (i.e. where the attribute is not populated for the feature) is False.
+| A value representing binary logic. The value can be either True or False. The
+default state for Boolean type attributes (i.e. where the attribute is not
+populated for the feature) is False.
 
 | Real
-| A signed Real (floating point) number consisting of a mantissa and an exponent.
+| A signed Real (floating point) number consisting of a mantissa and an
+exponent.
 
 | Integer
-| A signed integer number. The representation of an integer is encapsulation and usage dependent.
+| A signed integer number. The representation of an integer is encapsulation and
+usage dependent.
 
 | CharacterString
-| An arbitrary-length sequence of characters including accents and special characters from a repertoire of one of the adopted character sets.
+| An arbitrary-length sequence of characters including accents and special
+characters from a repertoire of one of the adopted character sets.
 
 | Date
-| A date provides values for year, month, and day according to the Gregorian Calendar. Character encoding of a date is a string which must follow the calendar date format (complete representation, basic format) for date specified by <<ISO8601>>.
+| A date provides values for year, month, and day according to the Gregorian
+Calendar. Character encoding of a date is a string which must follow the
+calendar date format (complete representation, basic format) for date specified
+by <<ISO8601>>.
 
 [example]
 19980918 (YYYY-MM-DD)
 
 | Time
-| A time is given by an hour, minute, and second. Character encoding of a time is a string that follows the local time (complete representation, basic format) format defined in <<ISO8601>>.
+| A time is given by an hour, minute, and second. Character encoding of a time
+is a string that follows the local time (complete representation, basic format)
+format defined in <<ISO8601>>.
 
 [example]
 183059 or 183059+0100 or 183059Z
 
 | Date and Time
-| A DateTime is a combination of a date and a time type. Character encoding of a DateTime shall follow <<ISO8601>>.
+| A DateTime is a combination of a date and a time type. Character encoding of a
+DateTime shall follow <<ISO8601>>.
 
 [example]
 19850412T101530
 
 | Codelist
-| A type of flexible enumeration. A code list type is a list of literals which may be extended only in conformance with specified rules.
+| A type of flexible enumeration. A code list type is a list of literals which
+may be extended only in conformance with specified rules.
 
 | Truncated date
 | One or more components of the Date type are omitted.
+
 |===
 
 ===== Complex Attributes
